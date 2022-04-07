@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project part 2</title>
+    
+</head>
+<body>
+    <form>
+        <form action="procesar.php" method="post"></form>
+        <label for="Name">Name</label>
+        <input id="Name" type="text"> <br>
+        <label for="Profession"> Profession</label>
+        <input id="Profession" type="text"> <br>
+        <label for="Social"> Social Media</label>
+        <input id="Social" type="text"> <br>
+        <p>Which services are you interested in?</p>
+        <ul>
+            <input type="checkbox" name="selection" id="English Teaching" value="input"> </input>
+            <label for="input"> English Teacher</label>
+            <input type="checkbox" name="selection" id="Scrum Master" value="input"> </input>
+            <label for="input"> Scrum Master </label>
+            <input type="checkbox" name="selection" id="Enneagram" value="input"> </input>
+            <label for="input"> Enneagram</label>
+            <input type="checkbox" name="selection" id="Web Development" value="input"> </input>
+            <label for="input"> Web Development </label>
+        </ul>
+        <p>Do you need my services</p>
+        <select name="tags" id="tags">
+            <option value="Full time">Full time</option>
+            <option value="Part time">Part time</option>
+            <option value="Seasonal">Seasonal</option>
+        </select><br>
+        <label for="Tell me more">Tell me about your project</label>
+        <textarea id="Tell me more" id="Text area" cols="30" rows="10"></textarea> <br> <br>
+        <button type="submit">Let's collaborate</button><br>
+    </form>
+    
+</body>
+</html>
